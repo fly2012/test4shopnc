@@ -264,7 +264,7 @@ class Db
 						return FALSE;
 				}
 				$fields = array_keys( $insert_array[0] );
-				array_walk( &$fields, array(
+				array_walk( $fields, array(
 						self,
 						"parseKey"
 				) );
