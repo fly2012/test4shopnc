@@ -100,7 +100,7 @@ $lang['cart_step1_please_chooseshipping'] = '请选择配送方式';
 $lang['cart_step1_please_chooseaddress']  = '请选择收货人地址';
 $lang['cart_step1_addnewaddress_submit']  = '提交';
 $lang['cart_step1_bundling_explain1']	= '组合销售：每套节省';
-$lang['cart_step1_bundling_explain2']	= '元；';
+$lang['cart_step1_bundling_explain2']	= '个；';
 $lang['cart_step1_voucher']  	= '代金券';
 $lang['cart_step1_voucher_usecondition'] = "订单满";
 /**

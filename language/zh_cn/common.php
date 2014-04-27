@@ -16,7 +16,7 @@ $lang['no_login']			= '您还没有登录';
 $lang['nc_status']			= '状态';
 
 $lang['currency']			= '&yen;';
-$lang['currency_zh']		= '元';
+$lang['currency_zh']		= '个';
 $lang['piece']				= '件';
 $lang['welcome_to_site']	= '欢迎来到';
 $lang['site_search_goods']	= "商品";

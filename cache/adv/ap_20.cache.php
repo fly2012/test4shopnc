@@ -14,5 +14,5 @@ $ap_width = '117';
 $ap_height = '131'; 
 $ap_price = '100'; 
 $adv_num = '1'; 
-$click_num = '1'; 
+$click_num = '2'; 
 $default_content = 'f1414e558d853ebd8835f50bda72fdce.jpg'; 

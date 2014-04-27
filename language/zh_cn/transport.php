@@ -12,7 +12,7 @@ $lang['transport_tpl_del']				= '删除';
 $lang['transport_type']					= '运送方式';
 $lang['transport_to']					= '运送到';
 $lang['transport_snum']					= '首件(个)';
-$lang['transport_price']				= '运费(元)';
+$lang['transport_price']				= '运费(个)';
 $lang['transport_xnum']					= '续件(个)';
 $lang['transport_applay']				= '应用模板';
 $lang['transport_del_confirm']			= '确认删除此模板?';
@@ -21,9 +21,9 @@ $lang['transport_del_confirm']			= '确认删除此模板?';
  */
 $lang['transport_note_1']				= '默认运费';
 $lang['transport_note_2']				= '件内，';
-$lang['transport_note_3']				= '元， 每增加';
+$lang['transport_note_3']				= '个， 每增加';
 $lang['transport_note_4']				= '件， 增加运费';
-$lang['transport_note_5']				= '元';
+$lang['transport_note_5']				= '个';
 
 $lang['transport_tpl_name']				= '模板名称';
 $lang['transport_tpl_name_note']		= '必须填写模板名称';

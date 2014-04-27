@@ -26,7 +26,7 @@ $lang['bundling_add_cart_prompt_three']	= '种商品 总金额为：';
 
 $lang['nc_promotion_time'] = '活动时间';
 $lang['nc_man'] = '满';
-$lang['nc_yuan'] = '元';
+$lang['nc_yuan'] = '个';
 $lang['nc_reduce'] = '减';
 $lang['nc_cash'] = '现金';
 $lang['nc_shipping_free'] = '包邮';
