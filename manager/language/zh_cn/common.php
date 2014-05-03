@@ -17,7 +17,7 @@ $lang['wrong_checkcode']	= '验证码错误';
 $lang['no_record']			= '没有符合条件的记录';
 $lang['currency']			= '￥';
 $lang['nc_colon']      = '：';
-$lang['currency_zh']			= '元';
+$lang['currency_zh']			= ‘个’;
 $lang['close']                = '关闭';
 $lang['open']                 = '开启';
 //调试模式语言包

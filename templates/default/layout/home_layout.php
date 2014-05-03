@@ -121,6 +121,7 @@ $(function(){
     </div>
   </div>
   <ul class="nc-nav-menu">
+    <li class="link"><a href="/"><span>交易平台</span></a></li>
     <li <?php echo $output['index_sign'] == 'index'&&$output['index_sign'] != '0'?'class="current"':'class="link"'; ?>><a href="<?php echo SiteUrl;?>"><span><?php echo $lang['nc_index'];?></span></a></li>
     <?php if(C('flea_isuse')){;?>
     <li <?php echo $output['index_sign'] == 'flea'&&$output['index_sign'] != '0'?'class="current"':'class="link"'; ?>><a href="<?php echo SiteUrl;?>/index.php?act=flea"><span><?php echo $lang['nc_flea_index'];?></span></a></li>

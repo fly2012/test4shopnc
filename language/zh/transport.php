@@ -23,7 +23,7 @@ $lang['transport_note_1']				= '預設運費';
 $lang['transport_note_2']				= '件內，';
 $lang['transport_note_3']				= '元， 每增加';
 $lang['transport_note_4']				= '件， 增加運費';
-$lang['transport_note_5']				= '元';
+$lang['transport_note_5']				= ‘个’;
 
 $lang['transport_tpl_name']				= '模板名稱';
 $lang['transport_tpl_name_note']		= '必須填寫模板名稱';

@@ -17,7 +17,7 @@ $lang['nc_microshop_like']			= "喜欢";
 $lang['nc_common_pselect']	=  '请选择...';
 
 $lang['currency']			= '￥';
-$lang['currency_zh']		= '元';
+$lang['currency_zh']		= ‘个’;
 $lang['nc_common_price']		= '价格';
 $lang['nc_common_goto']		= '去看看';
 $lang['piece']				= '件';

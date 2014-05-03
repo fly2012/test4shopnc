@@ -12,7 +12,7 @@
  */
 
 //项目目录名，必须与当前目录名一致
-define('ProjectName','admin');
+define('ProjectName','manager');
 //管理后台标识
 define('NC_ADMIN', true);
 
