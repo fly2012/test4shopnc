@@ -399,7 +399,7 @@ function delCacheFile( $dir )
 		if ( is_dir( $path ) )
 		{
 				$file_list = array( );
-				readfilelist( $path, $file_list );
+				readFileList( $path, $file_list );
 				if ( !empty( $file_list ) )
 				{
 						foreach ( $file_list as $v )
@@ -429,7 +429,7 @@ function readFileList( $path, &$file_list, $ignore_dir = array( ) )
 				{
 						while ( FALSE !== ( $dir = readdir( $handle ) ) )
 						{
-								if ( !( $dir != "." ) && !( $dir != ".." ) && in_array( $dir, $ignore_dir ) )
+								if (  $dir != "."  &&  $dir != ".."  && in_array( $dir, $ignore_dir ) == false)
 								{
 										if ( is_file( $path.DS.$dir ) )
 										{
@@ -437,7 +437,7 @@ function readFileList( $path, &$file_list, $ignore_dir = array( ) )
 										}
 										else if ( is_dir( $path.DS.$dir ) )
 										{
-												readfilelist( $path.DS.$dir, $file_list, $ignore_dir );
+												readFileList( $path.DS.$dir, $file_list, $ignore_dir );
 										}
 								}
 						}
